@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSMOS</title>
+
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <!--STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+<body id="game">
+    <header>
+        <h1 class="text-center mt-4 mb-2 headTag">COSMOS CONSCIOUS</h1>
+    </header>
+
+    <section class="container mx-auto">
+        <section class="mx-auto">
+            <div class="row">
+                <div class="col-12 text-center points">
+                    <p>Chances left: <span id="point"> 20</span></p>
+                </div>
+            </div>
+            <!--WON-->
+            <div id="won" class="text-center">
+                <h1>You have conquered the galaxy!</h1>
+                
+                <button class="btn" id="playAgain">Conquer another galaxy</button>
+            </div>
+            <!--LOST-->
+            <div id="lost" class="text-center">
+                <h1>Oops!! You Lost the battle</h1>
+                
+                <button class="btn" id="TryAgain">Try Again</button>
+            </div>
+
+            <section class="memory-game">
+                <div class="memory-card" data-cards="card1">
+                    <img class="front-face" src="Images/alien.png" alt="alien" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+                <div class="memory-card" data-cards="card1">
+                    <img class="front-face" src="Images/alien.png" alt="alien" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+
+                <div class="memory-card" data-cards="card2">
+                    <img class="front-face" src="Images/space-gun.png" alt="space-gun" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+                <div class="memory-card" data-cards="card2">
+                    <img class="front-face" src="Images/space-gun.png" alt="space-gun" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+
+                <div class="memory-card" data-cards="card3">
+                    <img class="front-face" src="Images/spaceship.png" alt="spaceship" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+                <div class="memory-card" data-cards="card3">
+                    <img class="front-face" src="Images/spaceship.png" alt="spaceship" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+
+                <div class="memory-card" data-cards="card4">
+                    <img class="front-face" src="Images/plant.png" alt="plant" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+                <div class="memory-card" data-cards="card4">
+                    <img class="front-face" src="Images/plant.png" alt="plant" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+
+                <div class="memory-card" data-cards="card5">
+                    <img class="front-face" src="Images/alien (1).png" alt="alien(1)" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+                <div class="memory-card" data-cards="card5">
+                    <img class="front-face" src="Images/alien (1).png" alt="alien(1)" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+
+                <div class="memory-card" data-cards="card6">
+                    <img class="front-face" src="Images/universe.png" alt="universe" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+                <div class="memory-card" data-cards="card6">
+                    <img class="front-face" src="Images/universe.png" alt="universe" />
+                    <img class="back-face" src="Images/vortex.png" alt="vortex" />
+                </div>
+            </section>
+        </section>
+    </section>
+
+
+    <!--JAVASCRIPT-->
+    <script src="script.js"></script>
+</body>
+
+</html>
