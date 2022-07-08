@@ -7,4 +7,6 @@ and you have to match pairs by turning over 2 cards at a time.
 If you have completed this level within 20 chances, you will be conquered to another 
 
 
-![This is an image](./readmi%20images/WhatsApp%20Video%202022-07-08%20at%205.18.09%20PM.mp4)
+![index page](./readmi%20images/index.jpeg)
+![gamepage page](./readmi%20images/gamepage1.jpeg)
+![fliping 2 cards](./readmi%20images/gamepage2.jpeg)
